@@ -1,0 +1,102 @@
+# OK
+NET "sys_clk"                   LOC = "AF13";   # 50MHz
+NET "RST"                  		LOC = "K14";    # 按下为0，代表复位
+
+# OK
+#NET "user_pb[1]"                LOC = "J11";    # S1 on board
+#NET "user_pb[2]"                LOC = "J12";    # S2 on board
+#NET "user_pb[3]"                LOC = "K12";    # S3 on board
+#NET "user_pb[4]"                LOC = "J13";    # S4 on board
+
+# OK
+NET "test_led"               LOC = "C16";    # 16个LED的最右端
+#NET "A"               LOC = "E16"; 
+#NET "B"               LOC = "C17"; 
+#NET "C"               LOC = "E17"; 
+#NET "D"               LOC = "C18"; 
+#NET "E"               LOC = "B18"; 
+#NET "F"               LOC = "F18"; 
+#NET "G"               LOC = "C19"; 
+#NET "DP"               LOC = "A20"; 
+#NET "SEL1"               LOC = "A19"; 
+#NET "SEL2"              LOC = "C20"; 
+#NET "SEL3"              LOC = "E19"; 
+#NET "SEL4"              LOC = "E20"; 
+#NET "user_led[13]"              LOC = "C21"; 
+#NET "user_led[14]"              LOC = "A21"; 
+#NET "user_led[15]"              LOC = "B20";    # 16个LED的最左端
+
+## OK
+NET "DIPSW0"            LOC = "H9 ";    # 右1开关的编号8的开关
+NET "DIPSW1"            LOC = "G9 ";
+NET "DIPSW2"            LOC = "G8 ";
+NET "DIPSW3"            LOC = "F7 ";
+NET "DIPSW4"            LOC = "F12" ;
+NET "DIPSW5"            LOC = "B4 " ;
+NET "DIPSW6"            LOC = "A4 " ;
+NET "DIPSW7"            LOC = "D5 " ;   # 右1开关的编号0的开关
+
+## OK
+NET "DIPSW8"            LOC = "C5" ;    # 右2开关的编号8的开关
+NET "DIPSW9"            LOC = "A5" ;
+NET "DIPSW10"            LOC = "B6" ;
+NET "DIPSW11"            LOC = "D6" ;
+NET "DIPSW12"            LOC = "E6";
+NET "DIPSW13"            LOC = "D7";
+NET "DIPSW14"            LOC = "C7";
+NET "DIPSW15"            LOC = "D8";     # 右2开关的编号0的开关
+
+#
+NET "DIPSW16"            LOC = "C8 " ;   # 右3开关的编号8的开关
+NET "DIPSW17"            LOC = "E9 " ;                         
+NET "DIPSW18"            LOC = "C9 " ;                         
+NET "DIPSW19"            LOC = "E10" ;                         
+NET "DIPSW20"            LOC = "C10";                          
+NET "DIPSW21"            LOC = "D10";                          
+NET "DIPSW22"            LOC = "C11";                          
+NET "DIPSW23"            LOC = "E12";    # 右3开关的编号0的开关
+
+NET "DIPSW24"            LOC = "C12" ;   # 右4开关的编号8的开关
+NET "DIPSW25"            LOC = "F13" ;                         
+NET "DIPSW26"            LOC = "D13" ;                         
+NET "DIPSW27"            LOC = "H15" ;                         
+NET "DIPSW28"            LOC = "F14";                          
+NET "DIPSW29"            LOC = "E14";                          
+NET "DIPSW30"            LOC = "H16";                          
+NET "DIPSW31"            LOC = "F16";    # 右4开关的编号0的开关
+
+NET "A"                LOC = "U13 " ;  # 右1，4位7段数码管
+NET "B"                LOC = "V11 " ;
+NET "C"                LOC = "V16 " ;
+NET "D"                LOC = "Y18 " ;
+NET "E"                LOC = "AA19" ;
+NET "F"                LOC = "U12 " ;
+NET "G"                LOC = "V15 " ;
+NET "DP"               LOC = "W17 " ;
+NET "SEL1"           LOC = "V14 " ;
+NET "SEL2"           LOC = "W13 " ;
+NET "SEL3"           LOC = "V13 " ;
+NET "SEL4"           LOC = "U15 " ;
+
+NET "test_A"                LOC = "AD17" ;  # 右2，4位7段数码管
+NET "test_B"                LOC = "AC20" ;
+NET "test_C"                LOC = "AF19" ;
+NET "test_D"                LOC = "AF17" ;
+NET "test_E"                LOC = "AF16" ;
+NET "test_F"                LOC = "AE17" ;
+NET "test_G"                LOC = "AD21" ;
+NET "test_DP"               LOC = "AF18" ;
+NET "test_SEL1"           LOC = "AC16" ;
+NET "test_SEL2"           LOC = "AE19" ;
+NET "test_SEL3"           LOC = "AD19" ;
+NET "test_SEL4"           LOC = "AB18" ;
+
+#NET "single_A"              LOC = "AC14" ;  # 1位7段数码管
+#NET "single_B"              LOC = "AF15" ;
+#NET "single_C"              LOC = "AB15" ;
+#NET "single_D"              LOC = "AB13" ;
+#NET "single_E"              LOC = "AC13" ;
+#NET "single_F"              LOC = "AD13" ;
+#NET "single_G"              LOC = "AE13" ;
+#NET "single_DP"             LOC = "AC15" ;
+#NET "single_SEL"            LOC = "AC11" ;
